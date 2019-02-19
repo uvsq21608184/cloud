@@ -1,0 +1,31 @@
+﻿.CheckForm__item input[type="checkbox"]:checked+input+label {
+    color: #41a62a;
+}
+
+.CheckForm__item input[type=checkbox]:checked+input+label:before {
+    background-position: 48% -500px;
+}
+
+.intro-fid button.Validate {
+    font-family: "helv-b", Arial, sans-serif;
+}
+
+.intro-fid button.Validate--orange {
+    background: none #c84118;
+    color: white;
+    border-color: #c84118;
+}
+
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 55%;
+}
+
+.errors p {
+    color: #de3514 !important;
+}
+
+input:invalid {
+    border-color: #de3514 !important;   
+    box-shadow: none;
+    outline: 0;  
+}

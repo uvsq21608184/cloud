@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://localhost:8888/BDD-Projet/Monprofil.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" href="./Monprofil_files/pageUtilisateur.css" type="text/css">
+
+	<title>Monprofil</title>
+</head>
+<body>
+<header>
+KETAM Djillali
+<div id="bouttonDec" style="position: relative;float: right; margin-right: 10px;">
+<form method="POST" action="http://localhost:8888/BDD-Projet/accueil.php">
+	<input type="submit" name="Deconexion" value="Deconexion">
+</form>
+</div>
+<div style="position: relative;float: right; margin-right: 10px;"><a href="http://localhost:8888/BDD-Projet/menuVisiteur.php" style="color: white;">Home</a></div>
+
+
+</header>
+
+							<!-- Formulaire modification mot de passe -->
+							<div class="Formulaire">
+							<form method="post" action="http://localhost:8888/BDD-Projet/Monprofil.php">
+								<label for="ancienPass">Ancien mot de passe : </label> 
+									<input type="password" name="ancienPass" placeholder="Ancien mot de passe..." id="ancienPass" required="">
+									<br>
+									<br>
+								<label for="nouvPass1">Nouveau mot de passe : </label> 
+									<input type="password" name="nouvPass1" placeholder="Nouveau mot de passe..." id="nouvPass1" required="" onchange="form.nouvPass2.pattern = this.value;">
+									<br>
+									<br>
+								<label for="nouvPass2">Retapez le mot de passe : </label> 
+									<input type="password" name="nouvPass2" placeholder="Retapez le mot de passe..." id="nouvPass2" required="">
+									<br>
+									<br>
+								<input type="submit" value="Modifier le mot de passe">
+							</form>
+							</div>
+							<br>
+							<br>
+
+				
+						
+?&gt;
+
+
+
+</body></html>

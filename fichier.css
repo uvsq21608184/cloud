@@ -1,0 +1,224 @@
+header{
+	position: absolute;
+	padding:1px 1px;/*Marge verticale*/
+	background-color:white; /*Couleur de fond*/
+	height: 40px;
+	width: 100%;
+	}
+h1{
+	float: left;
+	margin-top: 5px;
+	font-size: 20px;
+	margin-left: 375px;
+	
+}	
+
+#log-algerie{
+	float: right;
+	border: solid black 1px;
+	display: inline;
+	position: absolute;
+	margin-left: 480px;
+	margin-right:20px; 
+	margin-top: 5px;
+	margin-bottom: 10px;
+	width: 50px;
+}	
+#logo-authentification{
+	display: inline;
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 5px;
+	height: 40px;
+	width: 50px;
+}
+#logo-localistation{
+	display: inline;
+	position: absolute;
+	margin-left: 300px;
+	margin-top: 0px;
+	height: 45px;
+	width: 95px;
+}
+body{
+	background-size: 100%;
+    bottom: 10px;
+    margin: 0;
+    font-family: cursive, sans-serif;
+    color: #4d4d4d;
+}
+
+
+#barre_gauche{
+	margin-top: 60px;
+	margin-bottom: 80px;
+	height: 300px;
+	width: 200px;
+	position: absolute;
+	background-color: #CCFFFF;
+	border-right: blue 1px;
+	border-radius: 10px;
+}
+#case2{
+	background-color: #FF6600;
+	width:200Px;
+	height:130px; 
+	border-radius: 10px; 
+
+}
+#case1{
+	background-color:#CCFFFF;
+	width: 200px;
+	height:195px; 
+	border-radius: 10px;
+}
+
+td{
+	font-size: 20px;
+	width: 200px;
+	height: 59px;
+}
+.a1{
+width: 50px;
+}
+.a1:hover{
+background-color: #FF9966;
+}
+.a2{
+	width: 50px;
+}
+.a2:hover{
+	background-color: #33CCFF;
+}
+
+#parking{
+	width:45px;
+}
+#location{
+	width: 35px;
+}
+#avion{
+ width: 40px;
+}
+#bagages{
+width: 40px;
+}
+#acces{
+width: 35px;
+}
+
+#ph_acceuil{
+	position: absolute;
+	width:800px;
+	height: 500px;
+}
+.img_auth{
+	position: absolute;
+	width: 100%;
+	height: 650px;
+}
+#img_insc{
+	position: absolute;
+	height: 750px;
+	width: 100%;
+}
+
+#date_heure{
+	color: white;
+	position: absolute;
+	margin-top: 60px;
+	margin-left: 1070px;
+	font-size: 20px;
+	color: white;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+h2{
+	text-align: center;	
+	color: black;
+	font-size: 20px;
+}
+form{
+	color: white; 
+}
+.authetification{
+	color: black;
+	position: absolute;
+	background-color: #CCCCCC;
+	margin-top: 500px;
+	margin-left: 400px;
+	margin-right: 300px;
+	text-align:center; 
+	width: 500px;
+	border-radius: 10px;
+}
+
+
+#Accueil{
+	text-align:center;
+	font-style: bold;
+	font-size: 25px;
+
+}
+#Accueil:hover{
+	background-color: #FF9966;
+}
+#bonjour{
+	float: left;
+	display: inline;
+	position: absolute;
+	margin-left: 20px;
+	margin-top:20px;
+}
+.Formulaire{
+	color: black;
+	position: absolute;
+	background-color: #CCCCCC;
+	margin-top: 40px;
+	margin-left: 400px;
+	margin-right: 300px;
+	text-align:center; 
+	width: 500px;
+}
+label{
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+.Departs td{
+	font-family: time new roman;
+	height:20px; 
+	font-size:16px; 
+	width: 100px;
+	border: solid gray 1px;
+	padding: 0px;
+	color: white;
+	background-color: gray;
+}
+
+#content{
+	display: inline-block;
+}
+.Departs{
+	color: white;
+	margin-top: 400px;
+	margin-left: 130px;
+}
+#meteo{
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 985px;
+
+}
+caption{
+	color: white;
+}
+
+
+
+
+
+
